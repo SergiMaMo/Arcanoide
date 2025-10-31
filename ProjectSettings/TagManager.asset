@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - BolaPrincipal
+  - Pala
+  - DeadZone
   layers:
   - Default
   - TransparentFX

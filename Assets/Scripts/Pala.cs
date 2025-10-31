@@ -3,29 +3,55 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Move : MonoBehaviour
+public class Pala : MonoBehaviour
 {
     public float Velocity;
-
+    private bool lanzada;
     public GameObject paredDerecha;
     public GameObject paredIzquierda;
     private GameObject bola;
     private float limiteDerecho;
     private float limiteIzquierdo;
-    private float posicionActual;
+    private Vector2 posicionInicial;
+
+
     private void Awake()
     {
         Velocity = 5f;
-        posicionActual = this.transform.localScale.x;
+        lanzada = false;
         establecerLimitesDeJuego();
+    }
+
+    private void Start()
+    {
+        posicionInicial = this.transform.position;
+        
+    }
+
+    public void ResetearAPosicionInicial()
+    {
+        lanzada = false;
+        this.transform.position = posicionInicial;
     }
 
     private void Update()
     {
         establecerLimitesDeJuego();
         moverPala();
-        if (Input.GetKey(KeyCode.Space))
+        lanzarBola();
+    }
+    private void establecerLimitesDeJuego()
+    {
+        limiteDerecho = (paredDerecha.transform.position.x - paredDerecha.transform.localScale.x / 2) - (this.transform.localScale.x / 2);
+        limiteIzquierdo = (paredIzquierda.transform.position.x + paredDerecha.transform.localScale.x / 2) + (this.transform.localScale.x / 2);
+    }
+
+    private void lanzarBola()
+    {
+        
+        if (Input.GetKey(KeyCode.Space) && !lanzada)
         {
+            lanzada = true;
             bola = GameObject.FindGameObjectWithTag("BolaPrincipal");
             if (bola != null)
             {
@@ -39,12 +65,6 @@ public class Move : MonoBehaviour
             }
         }
     }
-    private void establecerLimitesDeJuego()
-    {
-        limiteDerecho = (paredDerecha.transform.position.x - paredDerecha.transform.localScale.x / 2) - (this.transform.localScale.x / 2);
-        limiteIzquierdo = (paredIzquierda.transform.position.x + paredDerecha.transform.localScale.x / 2) + (this.transform.localScale.x / 2);
-    }
-
     private void moverPala()
     {
         if (Input.anyKey)
