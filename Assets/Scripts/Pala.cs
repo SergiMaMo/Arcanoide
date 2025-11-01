@@ -34,6 +34,8 @@ public class Pala : MonoBehaviour
         this.transform.position = posicionInicial;
     }
 
+
+
     private void Update()
     {
         establecerLimitesDeJuego();
@@ -65,6 +67,8 @@ public class Pala : MonoBehaviour
             }
         }
     }
+
+
     private void moverPala()
     {
         if (Input.anyKey)

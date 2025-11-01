@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
 {
     public int vidas = 3;
 
+    private void Update()
+    {
+        ComprobarVictoria();
+    }
     public void PerderVida()
     {
         vidas--;
@@ -19,6 +23,27 @@ public class GameManager : MonoBehaviour
         else
         {
             ResetearPalaYBola();
+        }
+    }
+
+    private void eliminarNodosInnecesarios()
+    {
+        foreach(Transform child in transform.GetChild(0))
+        {
+            if(child.childCount <= 0)
+            {
+                Destroy(child.gameObject);
+            }
+        }
+
+    }
+
+    private void ComprobarVictoria()
+    {
+        eliminarNodosInnecesarios();
+        if (transform.GetChild(0).childCount <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
