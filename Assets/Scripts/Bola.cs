@@ -44,12 +44,11 @@ public class Bola : MonoBehaviour
                 GameObject pala = GameObject.FindGameObjectWithTag("Pala");
                 ContactPoint2D puntoDeContacto;
                 puntoDeContacto = collision.GetContact(0);
-                Vector3 posicionLocalDeLaPala = pala.transform.localPosition;
-
-                float IndiceDeRebote = Mathf.Clamp(Mathf.Abs(posicionLocalDeLaPala.x) - Mathf.Abs(puntoDeContacto.point.x), -this.transform.localScale.x / 2, this.transform.localScale.x / 2);
-                Vector2 ReboteSegunImpacto = new Vector2(IndiceDeRebote * 20, velocidadBola);
+                Vector3 posicionGlobalDeLaPala = pala.transform.position;
+                float IndiceDeRebote = puntoDeContacto.point.x - posicionGlobalDeLaPala.x;
+                Vector2 ReboteSegunImpacto = new Vector2(IndiceDeRebote , 1);
                 _rigidBody.velocity = Vector2.zero;
-                _rigidBody.AddForce(ReboteSegunImpacto, ForceMode2D.Impulse);
+                _rigidBody.AddForce(ReboteSegunImpacto.normalized * velocidadBola, ForceMode2D.Impulse);
             }
             
               

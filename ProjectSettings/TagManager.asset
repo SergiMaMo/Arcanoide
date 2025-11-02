@@ -7,6 +7,10 @@ TagManager:
   - BolaPrincipal
   - Pala
   - DeadZone
+  - Puntos
+  - Vida1
+  - Vida2
+  - Vida3
   layers:
   - Default
   - TransparentFX

@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public int vidas = 3;
-
     private void Update()
     {
         ComprobarVictoria();
@@ -22,10 +21,27 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            bajar_vida_contadores(vidas);
             ResetearPalaYBola();
         }
     }
 
+    private void bajar_vida_contadores(int vida)
+    {
+        GameObject ContadorDeVida3 = GameObject.FindGameObjectWithTag("Vida3");
+        GameObject ContadorDeVida2 = GameObject.FindGameObjectWithTag("Vida2");
+
+        if (vida < 3)
+        {
+            SpriteRenderer spriteRenderer = ContadorDeVida3.GetComponent<SpriteRenderer>();
+            spriteRenderer.color = Color.black;
+        }
+        if (vida < 2)
+        {
+            SpriteRenderer spriteRenderer = ContadorDeVida2.GetComponent<SpriteRenderer>();
+            spriteRenderer.color = Color.black;
+        }
+    }
     private void eliminarNodosInnecesarios()
     {
         foreach(Transform child in transform.GetChild(0))
