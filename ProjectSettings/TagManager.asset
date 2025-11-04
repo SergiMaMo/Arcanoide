@@ -9,6 +9,8 @@ TagManager:
   - DeadZone
   - Puntos
   - Vida1
+  - Ladrillo
+  - Vida
   - Vida2
   - Vida3
   layers:

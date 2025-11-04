@@ -1,15 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public int vidas = 3;
+    public int puntos = 0 ;
     private void Update()
     {
         ComprobarVictoria();
+        actualizarPuntos();
     }
     public void PerderVida()
     {
@@ -24,6 +27,14 @@ public class GameManager : MonoBehaviour
             bajar_vida_contadores(vidas);
             ResetearPalaYBola();
         }
+    }
+
+    private void actualizarPuntos()
+    {
+        TMP_Text textComponent;
+        GameObject ContadorPuntos = GameObject.FindGameObjectWithTag("Puntos");
+        textComponent = ContadorPuntos.GetComponent<TMP_Text>();
+        textComponent.text = puntos.ToString();
     }
 
     private void bajar_vida_contadores(int vida)
@@ -42,22 +53,13 @@ public class GameManager : MonoBehaviour
             spriteRenderer.color = Color.black;
         }
     }
-    private void eliminarNodosInnecesarios()
-    {
-        foreach(Transform child in transform.GetChild(0))
-        {
-            if(child.childCount <= 0)
-            {
-                Destroy(child.gameObject);
-            }
-        }
-
-    }
+    
 
     private void ComprobarVictoria()
     {
-        eliminarNodosInnecesarios();
-        if (transform.GetChild(0).childCount <= 0)
+        
+        GameObject[] ListaLadrillosRestantes = GameObject.FindGameObjectsWithTag("Ladrillo");
+        if (ListaLadrillosRestantes.Length <= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

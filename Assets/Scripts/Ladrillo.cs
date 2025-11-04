@@ -8,6 +8,8 @@ public class Ladrillo : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("BolaPrincipal"))
         {
+            GameManager gameManager = GameObject.FindAnyObjectByType<GameManager>();
+            gameManager.puntos += 100;
             Destroy(this.gameObject);
         }
     }

@@ -334,11 +334,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8641067365022891903, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
+--- !u!1001 &2144787305
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.4741354
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: Ladrillo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
 --- !u!1001 &1853822795543458147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -408,10 +469,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1952171271286405933, guid: c5a89a3675f1be64499082660368ab18, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2574779984465774732, guid: c5a89a3675f1be64499082660368ab18, type: 3}
+      propertyPath: m_TagString
+      value: Vida3
+      objectReference: {fileID: 0}
     - target: {fileID: 2944490652200226368, guid: c5a89a3675f1be64499082660368ab18, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1284635481}
+    - target: {fileID: 4639234662547249121, guid: c5a89a3675f1be64499082660368ab18, type: 3}
+      propertyPath: m_TagString
+      value: Vida2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8354777430616142671, guid: c5a89a3675f1be64499082660368ab18, type: 3}
+      propertyPath: m_TagString
+      value: Vida
+      objectReference: {fileID: 0}
     - target: {fileID: 9073258800515320541, guid: c5a89a3675f1be64499082660368ab18, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -506,3 +583,4 @@ SceneRoots:
   - {fileID: 1654830059}
   - {fileID: 3718396565449632484}
   - {fileID: 1853822795543458147}
+  - {fileID: 2144787305}
