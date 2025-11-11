@@ -11,5 +11,12 @@ public class DeadZone : MonoBehaviour
 
             FindObjectOfType<GameManager>().PerderVida();
         }
+
+        PowerUpBase powerUp = collision.GetComponent<PowerUpBase>();
+
+        if (powerUp != null)
+        {
+            powerUp.Destroy();
+        }
     }
 }

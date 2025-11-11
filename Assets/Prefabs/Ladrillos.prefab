@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9026406474156806421}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ladrillos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,6 +44,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9026406474156806421}
     m_Modifications:
+    - target: {fileID: 477005937325581720, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004025757397761461, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278672798369355377, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647934843250124729, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5226178356619836219, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5398981139617378208, guid: 7cd2f9072af61884390a79736e299617, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -84,9 +104,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6406006035560197423, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742650281288003036, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7517577133239352769, guid: 7cd2f9072af61884390a79736e299617, type: 3}
       propertyPath: m_Name
       value: FilaLadrillos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517577133239352769, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017468463591623190, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -106,6 +142,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9026406474156806421}
     m_Modifications:
+    - target: {fileID: 477005937325581720, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004025757397761461, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278672798369355377, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647934843250124729, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5226178356619836219, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5398981139617378208, guid: 7cd2f9072af61884390a79736e299617, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -146,9 +202,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6406006035560197423, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742650281288003036, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7517577133239352769, guid: 7cd2f9072af61884390a79736e299617, type: 3}
       propertyPath: m_Name
       value: FilaLadrillos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517577133239352769, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017468463591623190, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -168,6 +240,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9026406474156806421}
     m_Modifications:
+    - target: {fileID: 477005937325581720, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004025757397761461, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278672798369355377, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647934843250124729, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5226178356619836219, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5398981139617378208, guid: 7cd2f9072af61884390a79736e299617, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -208,9 +300,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6406006035560197423, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742650281288003036, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7517577133239352769, guid: 7cd2f9072af61884390a79736e299617, type: 3}
       propertyPath: m_Name
       value: FilaLadrillos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517577133239352769, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017468463591623190, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -230,6 +338,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9026406474156806421}
     m_Modifications:
+    - target: {fileID: 477005937325581720, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004025757397761461, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278672798369355377, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647934843250124729, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5226178356619836219, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5398981139617378208, guid: 7cd2f9072af61884390a79736e299617, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -270,9 +398,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6406006035560197423, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742650281288003036, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7517577133239352769, guid: 7cd2f9072af61884390a79736e299617, type: 3}
       propertyPath: m_Name
       value: FilaLadrillos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517577133239352769, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017468463591623190, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -292,6 +436,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9026406474156806421}
     m_Modifications:
+    - target: {fileID: 477005937325581720, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004025757397761461, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278672798369355377, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647934843250124729, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5226178356619836219, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5398981139617378208, guid: 7cd2f9072af61884390a79736e299617, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -332,9 +496,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6406006035560197423, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742650281288003036, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7517577133239352769, guid: 7cd2f9072af61884390a79736e299617, type: 3}
       propertyPath: m_Name
       value: FilaLadrillos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517577133239352769, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017468463591623190, guid: 7cd2f9072af61884390a79736e299617, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -24,11 +24,16 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            bajar_vida_contadores(vidas);
+            cambiar_vida_contadores(vidas);
             ResetearPalaYBola();
         }
     }
 
+    public void GanarVida()
+    {
+        vidas++;
+        cambiar_vida_contadores(vidas);
+    }
     private void actualizarPuntos()
     {
         TMP_Text textComponent;
@@ -37,20 +42,27 @@ public class GameManager : MonoBehaviour
         textComponent.text = puntos.ToString();
     }
 
-    private void bajar_vida_contadores(int vida)
+    private void cambiar_vida_contadores(int vida)
     {
         GameObject ContadorDeVida3 = GameObject.FindGameObjectWithTag("Vida3");
         GameObject ContadorDeVida2 = GameObject.FindGameObjectWithTag("Vida2");
 
-        if (vida < 3)
+        SpriteRenderer spriteRendererVida3 = ContadorDeVida3.GetComponent<SpriteRenderer>();
+        SpriteRenderer spriteRendererVida2 = ContadorDeVida2.GetComponent<SpriteRenderer>();
+        switch (vida)
         {
-            SpriteRenderer spriteRenderer = ContadorDeVida3.GetComponent<SpriteRenderer>();
-            spriteRenderer.color = Color.black;
-        }
-        if (vida < 2)
-        {
-            SpriteRenderer spriteRenderer = ContadorDeVida2.GetComponent<SpriteRenderer>();
-            spriteRenderer.color = Color.black;
+            case 3:
+                spriteRendererVida3.color = Color.white;
+                spriteRendererVida2.color = Color.white;
+                break;
+            case 2:
+                spriteRendererVida3.color = Color.black;
+                spriteRendererVida2.color = Color.white;
+                break;
+            case 1:
+                spriteRendererVida3.color = Color.black;
+                spriteRendererVida2.color = Color.black;
+                break;
         }
     }
     
@@ -67,6 +79,12 @@ public class GameManager : MonoBehaviour
 
     private void ResetearPalaYBola()
     {
+        GameObject[] PowerUpsEnVuelo = GameObject.FindGameObjectsWithTag("PowerUp");
+
+        foreach(GameObject PowerUpEnVuelo in PowerUpsEnVuelo)
+        {
+            Destroy(PowerUpEnVuelo);
+        }
         FindObjectOfType<Pala>().ResetearAPosicionInicial();
         FindObjectOfType<Bola>().ResetearAPosicionInicial();
     }

@@ -13,6 +13,7 @@ TagManager:
   - Vida
   - Vida2
   - Vida3
+  - PowerUp
   layers:
   - Default
   - TransparentFX
@@ -20,12 +21,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Pared
+  - Ladrillo
+  - Bola
+  - Pala
+  - DeadZone
+  - PowerUp
   - 
   - 
   - 

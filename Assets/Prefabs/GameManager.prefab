@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6994912678946969446}
   - component: {fileID: 620288580194586644}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidas: 3
+  puntos: 0
 --- !u!1001 &6041310230499243641
 PrefabInstance:
   m_ObjectHideFlags: 0

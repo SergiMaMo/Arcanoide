@@ -266,6 +266,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7148786916596192256, guid: d42d3d7ca239c1c49834f174b94f8ed5, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 5158046520894514089, guid: d42d3d7ca239c1c49834f174b94f8ed5, type: 3}
@@ -290,9 +294,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1239490412582697705, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2562770360151972635, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
       propertyPath: m_Name
       value: Zona de juego
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699575756958040843, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2905184766435871774, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239278041153477277, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4554971743166913515, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
       propertyPath: m_LocalPosition.x
@@ -333,6 +353,14 @@ PrefabInstance:
     - target: {fileID: 4554971743166913515, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773455661868793597, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7782862945221188805, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8641067365022891903, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
       propertyPath: m_IsTrigger
@@ -394,6 +422,10 @@ PrefabInstance:
     - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_Name
       value: Ladrillo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

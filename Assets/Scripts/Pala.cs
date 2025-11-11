@@ -67,8 +67,16 @@ public class Pala : MonoBehaviour
             }
         }
     }
-
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        PowerUpBase powerUp = collision.GetComponent<PowerUpBase>();
+       
+        if (powerUp != null)
+        {
+           powerUp.Apply();
+           powerUp.Destroy();     
+        }
+    }
     private void moverPala()
     {
         if (Input.anyKey)
