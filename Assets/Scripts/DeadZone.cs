@@ -9,7 +9,7 @@ public class DeadZone : MonoBehaviour
         if (collision.gameObject.CompareTag("BolaPrincipal"))
         {
 
-            FindObjectOfType<GameManager>().PerderVida();
+            GameManager.Instance.PerderVida();
         }
 
         PowerUpBase powerUp = collision.GetComponent<PowerUpBase>();

@@ -143,6 +143,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59d2109c2a704c9488c4a4e9dd31f452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Vida: 1
-  puntos: 100
+  data: {fileID: 11400000, guid: 9902a9edd90903e40b5f5af6d75ff126, type: 2}
   PowerUp: {fileID: 6616528317840191687, guid: bf4b1a00a7524044eb26254f38b14079, type: 3}

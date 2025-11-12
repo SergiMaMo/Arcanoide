@@ -10,7 +10,7 @@ public class PowerUpLifeUp : PowerUpBase
         Debug.Log("Life up");
         GameManager gameManager = GameObject.FindAnyObjectByType<GameManager>();
 
-        if(gameManager.vidas < 3)
+        if(gameManager.getVidas() < 3)
         {
             gameManager.GanarVida();
         }

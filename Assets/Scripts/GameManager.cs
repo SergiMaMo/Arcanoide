@@ -7,12 +7,33 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public int vidas = 3;
-    public int puntos = 0 ;
-    private void Update()
+
+    public static GameManager Instance;
+    private int vidas = 3;
+    private int puntos = 0 ;
+
+    public int getVidas()
     {
-        ComprobarVictoria();
-        actualizarPuntos();
+        return vidas;
+    }
+    public int getPuntos()
+    {
+        return puntos;
+    }
+
+    public void GanarPuntos(int puntos)
+    {
+        this.puntos += puntos;
+    }
+    private void Awake()
+    {
+        if(Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
     public void PerderVida()
     {
@@ -34,7 +55,7 @@ public class GameManager : MonoBehaviour
         vidas++;
         cambiar_vida_contadores(vidas);
     }
-    private void actualizarPuntos()
+    public void actualizarPuntos()
     {
         TMP_Text textComponent;
         GameObject ContadorPuntos = GameObject.FindGameObjectWithTag("Puntos");
@@ -67,7 +88,7 @@ public class GameManager : MonoBehaviour
     }
     
 
-    private void ComprobarVictoria()
+    public void ComprobarVictoria()
     {
         
         GameObject[] ListaLadrillosRestantes = GameObject.FindGameObjectsWithTag("Ladrillo");
