@@ -22,10 +22,7 @@ public class Ladrillo : MonoBehaviour
 
 
     }
-    private void OnDestroy()
-    {
-        GameManager.Instance.ComprobarVictoria();
-    }
+   
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("BolaPrincipal"))
@@ -39,10 +36,13 @@ public class Ladrillo : MonoBehaviour
                 {
                     GameManager.Instance.GanarPuntos(puntos);
                     GameManager.Instance.actualizarPuntos();
-                    Instantiate(PowerUp,transform.position,Quaternion.identity);
+                    
+                    if(Mathf.Round(Random.Range(0f,2f)) == 2 )Instantiate(PowerUp,transform.position,Quaternion.identity);
                 }
-                Destroy(this.gameObject);
+
                 
+                Destroy(this.gameObject);
+                GameManager.Instance.ComprobarVictoria();
             }
         }
     }

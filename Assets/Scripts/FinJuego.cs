@@ -7,6 +7,7 @@ public class FinJuego : MonoBehaviour
 {
     public void ResetearJuego()
     {
+        GameManager.Instance.resetearVidasYPuntos();
         SceneManager.LoadScene("Nivel1");
     }
 }

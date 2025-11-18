@@ -10,8 +10,13 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance;
     private int vidas = 3;
-    private int puntos = 0 ;
+    private int puntos = 0;
 
+    public void resetearVidasYPuntos()
+    {
+        this.vidas = 3;
+        this.puntos = 0;
+    }
     public int getVidas()
     {
         return vidas;
@@ -63,7 +68,7 @@ public class GameManager : MonoBehaviour
         textComponent.text = puntos.ToString();
     }
 
-    private void cambiar_vida_contadores(int vida)
+    public void cambiar_vida_contadores(int vida)
     {
         GameObject ContadorDeVida3 = GameObject.FindGameObjectWithTag("Vida3");
         GameObject ContadorDeVida2 = GameObject.FindGameObjectWithTag("Vida2");
@@ -92,12 +97,13 @@ public class GameManager : MonoBehaviour
     {
         
         GameObject[] ListaLadrillosRestantes = GameObject.FindGameObjectsWithTag("Ladrillo");
-        if (ListaLadrillosRestantes.Length <= 0)
+        if (ListaLadrillosRestantes.Length <= 1)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
+    
     private void ResetearPalaYBola()
     {
         GameObject[] PowerUpsEnVuelo = GameObject.FindGameObjectsWithTag("PowerUp");
