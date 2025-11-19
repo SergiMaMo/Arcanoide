@@ -7,12 +7,9 @@ public class PowerUpLifeUp : PowerUpBase
     public override void Apply()
     {
         base.Apply();
-        Debug.Log("Life up");
-        GameManager gameManager = GameObject.FindAnyObjectByType<GameManager>();
-
-        if(gameManager.getVidas() < 3)
+        if(GameManager.Instance.getVidas() < 3)
         {
-            gameManager.GanarVida();
+            GameManager.Instance.GanarVida();
         }
     }
 }

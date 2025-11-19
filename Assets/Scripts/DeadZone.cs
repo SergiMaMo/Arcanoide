@@ -8,7 +8,6 @@ public class DeadZone : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("BolaPrincipal"))
         {
-
             GameManager.Instance.PerderVida();
         }
 

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6964416560767318851}
   - component: {fileID: 2271394312527330624}
   m_Layer: 7
-  m_Name: Ladrillo
+  m_Name: LadrilloBasico
   m_TagString: Ladrillo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9150943, g: 0.61827004, b: 0.15107687, a: 1}
+  m_Color: {r: 0.31149152, g: 0.9137255, b: 0.15294115, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2

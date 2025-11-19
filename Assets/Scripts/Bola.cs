@@ -9,11 +9,10 @@ public class Bola : MonoBehaviour
     public float AnguloDeLanzamientoInicial;
     private Vector2 posicionInicial;
     private bool _isMoving = false;
-    // Start is called before the first frame update
     private void Start()
     {
         posicionInicial = this.transform.position;
-        
+
     }
 
     public void ResetearAPosicionInicial()
@@ -23,7 +22,15 @@ public class Bola : MonoBehaviour
         this.transform.position = posicionInicial;
         GameObject pala = GameObject.FindGameObjectWithTag("Pala");
         this.transform.parent = pala.transform;
-        
+
+    }
+
+    private void Update()
+    {
+        //Nos aseguramos que la bola siempre tenga la misma velocidad
+        if (_isMoving) {
+            _rigidBody.velocity = _rigidBody.velocity.normalized * velocidadBola;
+        }
 
     }
     public void LanzarBola()

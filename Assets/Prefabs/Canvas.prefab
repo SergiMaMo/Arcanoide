@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7577621482086403118}
   - component: {fileID: 7372133409440489696}
   - component: {fileID: 8322935368529945532}
+  - component: {fileID: 3046627400760332831}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -80,6 +81,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3046627400760332831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558003267247957505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0968e13ae4af24b9213b7ba00731d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContadorDeVida3: {fileID: 2574779984465774732}
+  ContadorDeVida2: {fileID: 4639234662547249121}
 --- !u!1 &1952171271286405933
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +519,7 @@ GameObject:
   - component: {fileID: 392573248110801510}
   - component: {fileID: 3432695879332793354}
   - component: {fileID: 2120076197583414232}
+  - component: {fileID: 163165228877765422}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Puntos
@@ -627,6 +643,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &163165228877765422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6983045956176500391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5de0eda6d9f97f498a37af82edfb4cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntuacion: {fileID: 2120076197583414232}
 --- !u!1 &8048201804249555856
 GameObject:
   m_ObjectHideFlags: 0

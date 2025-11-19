@@ -27,20 +27,14 @@ public class Ladrillo : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("BolaPrincipal"))
         {
-            
-            
             vidas--;
             if(vidas <= 0)
             {
                 if(PowerUp != null)
                 {
                     GameManager.Instance.GanarPuntos(puntos);
-                    GameManager.Instance.actualizarPuntos();
-                    
                     if(Mathf.Round(Random.Range(0f,2f)) == 2 )Instantiate(PowerUp,transform.position,Quaternion.identity);
                 }
-
-                
                 Destroy(this.gameObject);
                 GameManager.Instance.ComprobarVictoria();
             }
