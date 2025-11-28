@@ -9,5 +9,6 @@ public class FinJuego : MonoBehaviour
     {
         GameManager.Instance.resetearVidasYPuntos();
         SceneManager.LoadScene("Nivel1");
+        GameManager.Instance.StartCoroutine(GameManager.Instance.Cronometro());
     }
 }

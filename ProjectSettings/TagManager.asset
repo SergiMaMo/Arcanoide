@@ -14,6 +14,7 @@ TagManager:
   - Vida2
   - Vida3
   - PowerUp
+  - Temporizador
   layers:
   - Default
   - TransparentFX
