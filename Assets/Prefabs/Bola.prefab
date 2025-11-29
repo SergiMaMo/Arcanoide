@@ -161,5 +161,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdb621ced93c454f9088af403f3112c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadBola: 500
-  AnguloDeLanzamientoInicial: 10
+  velocidadBola: 7
+  AnguloDeLanzamientoInicial: 0

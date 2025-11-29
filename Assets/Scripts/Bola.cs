@@ -30,6 +30,11 @@ public class Bola : MonoBehaviour
         //Nos aseguramos que la bola siempre tenga la misma velocidad
         if (_isMoving) {
             _rigidBody.velocity = _rigidBody.velocity.normalized * velocidadBola;
+            if(_rigidBody.velocity.y == 0)
+            {
+                Vector2 DireccionInicial = new Vector2(0, 1);
+                _rigidBody.AddForce(DireccionInicial * velocidadBola, ForceMode2D.Impulse);
+            }
         }
 
     }

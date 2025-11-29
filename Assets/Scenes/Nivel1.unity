@@ -122,6 +122,291 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &29805520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6907413684463671268, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_Name
+      value: LadrilloMedio (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.7534626
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6371191
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+--- !u!1001 &67858279
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.7534626
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.49861494
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+--- !u!1001 &92133556
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.565097
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1911358
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+--- !u!1001 &135062018
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.013850416
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6094183
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+--- !u!1001 &213192832
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2216063
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2742382
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
 --- !u!1 &321988872 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6983045956176500391, guid: c5a89a3675f1be64499082660368ab18, type: 3}
@@ -168,6 +453,234 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db9a481811a38ad4e99ebad82879fbb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &430506335
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.504155
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7977839
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+--- !u!1001 &464883809
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.371191
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5235457
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+--- !u!1001 &493449092
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.4792244
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3850416
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+--- !u!1001 &509469408
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.9501386
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.58171743
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,7 +717,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -317,6 +830,120 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 436a888b10f07344ba4b0f93142a7fd8, type: 3}
+--- !u!1001 &866434173
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6907413684463671268, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_Name
+      value: LadrilloMedio (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.4819944
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05540166
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+--- !u!1001 &1098046974
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.867036
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.58171743
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
 --- !u!1001 &1219934802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -328,6 +955,14 @@ PrefabInstance:
     - target: {fileID: 2562770360151972635, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
       propertyPath: m_Name
       value: Zona de juego
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210792538512643737, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
+      propertyPath: velocidadBola
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210792538512643737, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
+      propertyPath: AnguloDeLanzamientoInicial
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4554971743166913515, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
       propertyPath: m_LocalPosition.x
@@ -378,6 +1013,291 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5066a46bf5b26a4b8ef8b1b739f0380, type: 3}
+--- !u!1001 &1387749937
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5927978
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3296399
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+--- !u!1001 &1579707595
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+--- !u!1001 &1701306562
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.124653734
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6094183
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+--- !u!1001 &1929039820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7562327
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5235457
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794789040833587836, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: m_Name
+      value: LadrilloBasico (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+--- !u!1001 &1950773273
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6907413684463671268, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_Name
+      value: LadrilloMedio
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.063712
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6869807
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427059994000364789, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
 --- !u!1001 &1961562743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -650,3 +1570,19 @@ SceneRoots:
   - {fileID: 1961562743}
   - {fileID: 540030104}
   - {fileID: 1962760081}
+  - {fileID: 1579707595}
+  - {fileID: 430506335}
+  - {fileID: 1929039820}
+  - {fileID: 464883809}
+  - {fileID: 1950773273}
+  - {fileID: 92133556}
+  - {fileID: 1387749937}
+  - {fileID: 135062018}
+  - {fileID: 509469408}
+  - {fileID: 1098046974}
+  - {fileID: 1701306562}
+  - {fileID: 866434173}
+  - {fileID: 67858279}
+  - {fileID: 213192832}
+  - {fileID: 493449092}
+  - {fileID: 29805520}
