@@ -30,10 +30,10 @@ public class Ladrillo : MonoBehaviour
             vidas--;
             if(vidas <= 0)
             {
-                if(PowerUp != null)
+                if (PowerUp != null)
                 {
                     GameManager.Instance.GanarPuntos(puntos);
-                    if(Mathf.Round(Random.Range(0f,2f)) == 2 )Instantiate(PowerUp,transform.position,Quaternion.identity);
+                    if(Mathf.Round(Random.Range(0f,2f)) == 2 ) Instantiate(PowerUp,transform.position,Quaternion.identity);
                 }
                 Destroy(this.gameObject);
                 GameManager.Instance.ComprobarVictoria();

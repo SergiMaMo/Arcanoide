@@ -130,6 +130,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1556990540215205629, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 6907413684463671268, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
       propertyPath: m_Name
       value: LadrilloMedio (2)
@@ -187,6 +191,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271394312527330624, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7534626
@@ -244,6 +252,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271394312527330624, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.565097
@@ -518,6 +530,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271394312527330624, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.371191
@@ -1021,6 +1037,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271394312527330624, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5927978
@@ -1078,6 +1098,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271394312527330624, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.65
@@ -1135,6 +1159,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271394312527330624, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.124653734
@@ -1249,6 +1277,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1556990540215205629, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 6907413684463671268, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
       propertyPath: m_Name
       value: LadrilloMedio

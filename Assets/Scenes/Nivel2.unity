@@ -130,6 +130,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271394312527330624, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.972299
@@ -187,6 +191,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271394312527330624, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.1357336
@@ -358,6 +366,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271394312527330624, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.2236757
@@ -529,6 +541,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1556990540215205629, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 6907413684463671268, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
       propertyPath: m_Name
       value: LadrilloMedio (5)
@@ -700,6 +716,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271394312527330624, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5833178
@@ -757,6 +777,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1556990540215205629, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 6907413684463671268, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
       propertyPath: m_Name
       value: LadrilloMedio (6)
@@ -928,6 +952,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271394312527330624, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 8078040482107730981, guid: b2de1ec4f29f57047847c1b5dd10f19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.5844874
@@ -985,6 +1013,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1556990540215205629, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 6907413684463671268, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
       propertyPath: m_Name
       value: LadrilloMedio (4)
@@ -1362,6 +1394,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1556990540215205629, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
+      propertyPath: PowerUp
+      value: 
+      objectReference: {fileID: 4816504010532840857, guid: 40280bf2183d95d42879cade65a1d427, type: 3}
     - target: {fileID: 6907413684463671268, guid: 78b88ed8612a80e41b5a64c23731b6f5, type: 3}
       propertyPath: m_Name
       value: LadrilloMedio (1)
