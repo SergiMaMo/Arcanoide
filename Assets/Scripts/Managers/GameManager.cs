@@ -24,13 +24,10 @@ public class GameManager : MonoBehaviour
         if (obj != null) textoTemporizador = obj.GetComponent<TextMeshProUGUI>();
         while (noContarTiempo)
         {
-            
-
             if (obj == null)
             {
                 obj = GameObject.FindGameObjectWithTag("Temporizador");
                 if (obj != null) textoTemporizador = obj.GetComponent<TextMeshProUGUI>();
-                
             }
             int minutos = segundosTotales / 60;
             int segundos = segundosTotales % 60;
@@ -51,8 +48,6 @@ public class GameManager : MonoBehaviour
 
             segundosTotales++;
 
-            
-            
         }
     }
 
@@ -152,6 +147,16 @@ public class GameManager : MonoBehaviour
         string nombre = System.IO.Path.GetFileNameWithoutExtension(path);
 
         return nombre;
+    }
+
+    public void EliminarTodosLosLadrillos()
+    {
+        GameObject[] Ladrillos = GameObject.FindGameObjectsWithTag("Ladrillo");
+
+        foreach (GameObject Ladrillo in Ladrillos)
+        {
+            Destroy(Ladrillo);
+        }
     }
     private void ResetearPalaYBola()
     {
